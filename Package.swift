@@ -18,10 +18,8 @@ let package = Package(
             targets: ["DocX"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/shinjukunian/AEXML.git", .upToNextMajor(from: "4.6.0")),
-//        .package(name: "AEXML", url: "https://github.com/shinjukunian/AEXML.git", .branch("master")),
+        .package(url: "https://github.com/pmacro/AEXML.git", .upToNextMajor(from: "4.6.0")),
         .package(url: "https://github.com/weichsel/ZIPFoundation.git", .upToNextMajor(from: "0.9.0")),
-        
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
